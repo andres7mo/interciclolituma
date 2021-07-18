@@ -43,7 +43,7 @@ namespace interciclolituma
             {
                 opciones.AddDefaultPolicy(builder =>
                 {
-                    builder.WithOrigins("http://localhost:4200", "https://santiagoaluas.github.io")
+                    builder.WithOrigins("http://localhost:4200", "https://andres7mo.github.io")
                     .AllowAnyMethod()
                     .AllowAnyHeader();
                 });
